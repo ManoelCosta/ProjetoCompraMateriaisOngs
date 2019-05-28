@@ -4,8 +4,6 @@ class Usuario {
     private String nome;
     private String identificacao;
 
-    public Usuario() {
-    }
 
     public String getUsuario() {
         return usuario;

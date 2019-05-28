@@ -3,8 +3,8 @@ public class Loja {
     private String localizacao;
     private String cnpj;
 
-    public Loja(String cnpj) {
-        this.cnpj = cnpj;
+    public Loja() {
+
     }
 
     public String getNome() {

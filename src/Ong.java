@@ -1,8 +1,18 @@
 public class Ong extends Usuario {
+    private double saldo;
 
 
-    public Ong(String cnpj) {
+    Ong(String cnpj) {
         this.setIdentificacao(cnpj);
     }
 
+
+    public double getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+    
 }
