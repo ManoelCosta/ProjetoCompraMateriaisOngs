@@ -1,42 +1,32 @@
 public class Produto {
-    private String nome;
-    private double preco;
-    private int disponibilidade;
-    private int codigo;
 
-    public Produto(String nome) {
-        this.nome = nome;
-    }
+	private String nome;
 
-    public String getNome() {
-        return nome;
-    }
+	private double preco;
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
+	private int disponibilidade;
 
-    public double getPreco() {
-        return preco;
-    }
+	public String getNome() {
+		return nome;
+	}
 
-    public void setPreco(double preco) {
-        this.preco = preco;
-    }
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
 
-    public int getDisponibilidade() {
-        return disponibilidade;
-    }
+	public double getPreco() {
+		return preco;
+	}
 
-    public void setDisponibilidade(int disponibilidade) {
-        this.disponibilidade = disponibilidade;
-    }
+	public void setPreco(double preco) {
+		this.preco = preco;
+	}
 
-    public int getCodigo() {
-        return codigo;
-    }
+	public int getDisponibilidade() {
+		return disponibilidade;
+	}
 
-    public void setCodigo(int codigo) {
-        this.codigo = codigo;
-    }
+	public void setDisponibilidade(int disponibilidade) {
+		this.disponibilidade = disponibilidade;
+	}
 }

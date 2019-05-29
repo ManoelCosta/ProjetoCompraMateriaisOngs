@@ -1,18 +1,12 @@
 public class Ong extends Usuario {
-    private double saldo;
 
+	private String localizacao;
 
-    Ong(String cnpj) {
-        this.setIdentificacao(cnpj);
-    }
+	public String getLocalizacao() {
+		return localizacao;
+	}
 
-
-    public double getSaldo() {
-        return saldo;
-    }
-
-    public void setSaldo(double saldo) {
-        this.saldo = saldo;
-    }
-    
+	public void setLocalizacao(String localizacao) {
+		this.localizacao = localizacao;
+	}
 }
